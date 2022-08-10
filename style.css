@@ -1,5 +1,5 @@
 body {
-	background: black;
+background: black;
 }
 
 
@@ -7,18 +7,22 @@ header {
 background: black;
 }
 .imgtop{
+	margin: auto;
+
+
 
 }
-.titulo{
-	
-	font-size: 50px;	
-	position: absolute; top: 40px;
-	left: 430px;
-}
-p {
+
+h1 {
 	color: white;
 	text-align: center;
 	font-size: 18px;
 	font-style: italic;
-
+}
+p{
+	color: white;
+}
+ul{
+	text-decoration: none;
+	color: white;
 }
