@@ -6,8 +6,8 @@ background: black;
 header {
 background: black;
 }
-.imgtop{
-	margin: auto;
+#imgtop{
+	width: 100%;
 
 
 
