@@ -1,0 +1,77 @@
+body {
+background: black;
+}
+
+
+header {
+background: black;
+}
+#imgtop{
+	width: 100%;
+	border: 5px solid black;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-style: italic;
+	margin: 5px;
+}
+a {
+	text-decoration: none;
+	color: #555555;
+}
+
+
+#youtubeimg{
+	width: 50%;
+	margin: 30px 0 0 0;
+}
+#lojasimg{
+	width: 36%;
+	margin: 30px 0 0 0;
+}
+#parametrosimg{
+	width: 72%;
+	margin: 30px 0 0 0;
+}
+.links {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.links li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 10px;
+	box-sizing: border-box;
+	border: 2px solid #111111;
+	border-radius: 10px;
+}
+
+
+.links a:hover{
+	color: #6699FF;
+}
+
+.links li:active {
+	border-color: #669900;	
+}
+
+.links li:hover h2 {
+	
+	color: #6699FF;
+}
+
+.links h2 {
+
+	color: #111111;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0 0 0 10px;
+}
