@@ -1,62 +1,42 @@
 body {
 background: black;
+text-align: center;
 }
 
 
 header {
 background: black;
+text-align: center;
+margin-bottom: 10px;
+
+
 }
-#imgtop{
+#imgtop{	
+	display: inline-block;
 	width: 100%;
-
-}
-
-h1 {
-	color: #555555;
-	text-align: center;
-	font-size: 18px;
-	font-style: italic;
-	margin: 5px;
-}
-a {
-	text-decoration: none;
-	color: #555555;
-}
-
-
-#youtubeimg{
-	width: 50%;
-	margin: 30px 0 0 0;
-}
-#lojasimg{
-	width: 36%;
-	margin: 30px 0 0 0;
-}
-#parametrosimg{
-	width: 72%;
-	margin: 30px 0 0 0;
-}
-.links {
-	width: 940px;
-	margin: 0 auto;
-	padding: 50px 0;
 }
 
 .links li {
 	display: inline-block;
 	text-align: center;
-	width: 30%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 10px;
+	margin-left: 30px;
+	padding: 10px 10px;
 	box-sizing: border-box;
 	border: 2px solid #111111;
 	border-radius: 10px;
 }
 
+.links a{
+	text-decoration: none;
+	color: #555555;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
 
 .links a:hover{
 	color: #6699FF;
+
 }
 
 .links li:active {
@@ -75,19 +55,47 @@ a {
 	font-weight: bold;
 	margin: 0 0 0 10px;
 }
+main {
 
-h3{
+	display: inline-block;
+	color: #AAAAAA;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	width: 75%;
+}
+main p{
+	text-indent: 3em;
+	line-height: 1.8em;
+
+}
+h1{
+	color: #AAAAAA;
 	font-size: 40px;
-	color: #777777;
+	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	margin: 20px;
-}
-.canais p{
-	display: inline-block;
-	color: #777777;
 
 }
-#fazendasub{
-	margin: 10px;
 
+footer{
+	color: #223322;
+	text-align: center;
+	font-style: italic;
+	margin-top: 80px;
+	margin-bottom: 20px;
+
+}
+span{
+	color: #557755;
+}
+.center{
+	text-align: center;
+	
+}
+
+
+#sizeimg {
+	width: 700px;
+	padding: 30px;
 }
