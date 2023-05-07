@@ -99,3 +99,10 @@ span{
 	width: 700px;
 	padding: 30px;
 }
+
+@media screen and (max-width: 768px) {
+	.footer{		
+		margin: 20% 20%;
+		}
+	
+}
